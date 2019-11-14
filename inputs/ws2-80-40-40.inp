@@ -1,0 +1,41 @@
+1.0
+80
+-20
+20 
+1.0
+1.0
+40
+-20
+20
+1.0
+1.0
+40
+-20
+20
+1.0
+500
+0.01
+5
+-1
+
+//Sample parameters with descriptions
+1     // scaling width sigma0_x
+200     // N_x number of grid pts in x
+-15     // xleft 
+15      // xright
+1.0		// x_freq - the harmonic trap frequency in x
+1     // scaling width sigma0_y
+200     // N_y number of grid pts in y
+-15     // yleft 
+15      // yright
+1.0		// y_freq - the harmonic trap frequency in y
+1     // scaling width sigma0_z
+200     // N_z number of grid pts in z
+-15     // zleft 
+15      // zright
+1.0		// z_freq - the harmonic trap frequencz in z
+200     // N_t number of time loops
+0.005   //dt temporal step size
+5       // n_iter - number of iterations for nonlinear potential
+1      // g_coeff - parameter for scaling of G.P. nonlinear potential term
+
