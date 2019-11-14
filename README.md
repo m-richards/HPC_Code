@@ -13,6 +13,10 @@ I wrote a report about the interpretations, parallelisation scheme implemented a
 - Non trivial speedups were exhibited in runtime although scaling was far from ideal strong or weak scaling. Less than ideal parallelisation scheme was a limiting factor here. Runtime still significantly faster than serial code. 
 ## Plots
 A couple of animations from testing the 1D code, there are more cases in the report and they're actually explained, but they're not animated.
+- No external potential is applied so wave function is unconstrained and disperses
+![Dispersion Plot](https://github.com/m-richards/HPC_Code/blob/master/plots/no-potential-dispersion.gif)
+- Forced potential with analytic solution found by Husimi (https://doi.org/10.1143/ptp/9.4.381).
+![Husimi Plot](https://github.com/m-richards/HPC_Code/blob/master/plots/husimi-potential.gif)
 
 
 
