@@ -8,8 +8,8 @@ My allocated project was solving the non-linear Schrodinger (Gross Piteavski ) e
 I wrote a report about the interpretations, parallelisation scheme implemented and scaling, which is far too long to be read, so in short
 - Results were physically meaningful for the simple test cases checked, they were self consistent and corresponded to 1D cases with analytic solutions. 
 - The scheme sliced the problem in 1 direction to split across MPI ranks. 
- - It would have been better to use a tiling splitting scheme to reduce communication with increased resources, but the focus was having code work over a short time frame. 
- - There was neat iterative matrix inversion scheme used to avoid having to compute inverses on 1 rank and broadcast results
+	- It would have been better to use a tiling splitting scheme to reduce communication with increased resources, but the focus was having code work over a short time frame. 
+	- There was neat iterative matrix inversion scheme used to avoid having to compute inverses on 1 rank and broadcast results
 - Non trivial speedups were exhibited in runtime although scaling was far from ideal strong or weak scaling. Less than ideal parallelisation scheme was a limiting factor here. Runtime still significantly faster than serial code. 
 ## Plots
 A couple of animations from testing the 1D code, there are more cases in the report and they're actually explained, but they're not animated.
